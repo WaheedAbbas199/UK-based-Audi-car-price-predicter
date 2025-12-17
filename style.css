@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    /* 🔥 Full background image */
+    background-image: url("https://images.pexels.com/photos/1719647/pexels-photo-1719647.jpeg?cs=srgb&dl=pexels-ryan-west-838532-1719647.jpg&fm=jpg");
+    background-size: cover;       /* Full screen */
+    background-position: center;  /* Center align */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Scroll par bhi fixed */
+
+    min-height: 100vh;
+}
+
+.container {
+    width: 400px;
+    margin: 60px auto;
+    padding: 25px;
+
+    background: rgba(0, 0, 0, 0.30); /* 🔥 Transparent black */
+    color: white;
+
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background: #22c55e;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #16a34a;
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
